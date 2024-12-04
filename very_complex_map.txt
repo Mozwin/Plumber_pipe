@@ -1,0 +1,15 @@
+# Very complex map with multiple paths and loops
+Producer 0 0 Blue
+Producer 5 5 Yellow
+Consumer 4 0 Blue
+Consumer 5 6 Yellow
+Pipe 1 0 BEND SOUTH
+Pipe 1 1 STRAIGHT EAST
+Pipe 2 1 BEND NORTH
+Pipe 2 2 STRAIGHT WEST
+Tap 3 2
+Pipe 3 3 BEND SOUTH
+Pipe 4 3 STRAIGHT SOUTH
+Pipe 4 4 BEND EAST
+Pipe 5 4 STRAIGHT EAST
+Pipe 6 4 BEND NORTH

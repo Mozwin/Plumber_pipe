@@ -1,0 +1,9 @@
+# Medium complexity with multiple pipes and one tap
+Producer 0 0 Blue
+Consumer 4 4 Blue
+Pipe 1 0 BEND EAST
+Pipe 2 1 STRAIGHT EAST
+Pipe 3 2 BEND SOUTH
+Pipe 3 3 STRAIGHT SOUTH
+Tap 3 4
+Pipe 3 5 STRAIGHT EAST

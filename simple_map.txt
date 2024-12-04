@@ -1,0 +1,4 @@
+# Simple example with one producer and one consumer connected by pipes
+Producer 0 0 Red
+Consumer 2 0 Red
+Pipe 1 0 STRAIGHT EAST

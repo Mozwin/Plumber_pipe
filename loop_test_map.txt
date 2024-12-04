@@ -1,0 +1,10 @@
+# Loop map with redundant connections
+Producer 0 0 Green
+Consumer 3 3 Green
+Pipe 1 0 STRAIGHT EAST
+Pipe 2 0 BEND SOUTH
+Pipe 2 1 STRAIGHT EAST
+Pipe 3 1 STRAIGHT SOUTH
+Pipe 3 2 BEND WEST
+Pipe 3 0 STRAIGHT NORTH
+Pipe 3 3 STRAIGHT EAST

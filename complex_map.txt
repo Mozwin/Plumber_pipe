@@ -1,0 +1,13 @@
+# Complex map with multiple producers and consumers
+Producer 0 0 Green
+Producer 5 0 Red
+Consumer 2 2 Green
+Consumer 5 5 Red
+Pipe 1 0 STRAIGHT EAST
+Pipe 2 0 BEND SOUTH
+Pipe 2 1 STRAIGHT EAST
+Pipe 3 1 STRAIGHT SOUTH
+Pipe 3 2 BEND EAST
+Tap 4 2
+Pipe 4 3 STRAIGHT EAST
+Pipe 5 3 BEND SOUTH
